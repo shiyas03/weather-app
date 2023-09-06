@@ -6,7 +6,7 @@
                 <p class="text-lg font-medium text-white">weather</p>
             </div>
             <div class="fixed bottom-0 m-10 mb-20 flex items-center" *ngIf="data">
-                <p class="text-9xl font-medium text-white family">{{data.main.temp }}°</p>
+                <p class="text-9xl font-medium text-white family">{{data.main.temp | convert }}°</p>
                 <div class="mx-5 text-white">
                     <p class="text-4xl">{{data.name}}</p>
                     <p>13:00 - Friday 9.10.2023</p>

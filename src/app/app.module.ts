@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { WeatherComponent } from './weather/weather.component'
 import { FormsModule } from '@angular/forms';
+import { ConvertPipe } from './shared/convert.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     WeatherComponent,
+    ConvertPipe,
   ],
   imports: [
     BrowserModule,
